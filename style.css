@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+body {
+  /* width: 100%;
+  min-height: 100vh; */
+  background: linear-gradient(90deg, #c6ea8d, #fe90af);
+}
+.container {
+  margin-top: 1.9rem;
+}
+.main {
+  width: 80%;
+  margin: 1rem auto;
+  /* border: 1px solid rebeccapurple; */
+}
+.input_side {
+  max-width: 32%;
+  background: linear-gradient(90deg, #fe90af, #c6ea8d);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 9px auto;
+}
+.input_side input {
+  min-width: 94%;
+  padding: 9px 9px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 14px 0px;
+}
+.input_side button {
+  padding: 4px 20px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 14px 0px;
+  background: #ffffff;
+  color: #655c5f;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.input_side button:hover {
+  background: #655c5f;
+  color: #ffffff;
+}
+.notes {
+  width: 90%;
+  margin: 20px auto;
+  /* border: 1px solid; */
+}
+#notes {
+  display: flex;
+  /* padding: 14px; */
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+#notes li {
+  margin: 0px 21px 10px 0px;
+}
+#notes li p {
+  margin-bottom: 8px;
+  border-left: 4px solid;
+  background-color: darkseagreen;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+#notes li button {
+  padding: 3px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#notes li button:hover {
+  background: #655c5f;
+  color: #ffffff;
+}
