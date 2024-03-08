@@ -60,7 +60,7 @@ function deleteNote() {
 // function to create note by pressing enter and need to execute the code after html is loaded
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("note").addEventListener("keyup", function (event) {
-    if (event.keyCode === 13) {
+    if (event.key === "Enter") {
       event.preventDefault();
       document.getElementById("add").click();
     }
