@@ -82,3 +82,22 @@ body {
   background: #655c5f;
   color: #ffffff;
 }
+
+/* responsive design */
+@media (max-width: 768px) {
+  .input_side {
+    max-width: 100%;
+  }
+  .input_side input {
+    min-width: 100%;
+  }
+  .input_side button {
+    min-width: 100%;
+  }
+  .notes {
+    width: 100%;
+  }
+  #notes li {
+    margin: 0px 0px 10px 0px;
+  }
+}
